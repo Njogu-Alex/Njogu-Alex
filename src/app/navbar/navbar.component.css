@@ -1,0 +1,22 @@
+.navbar{
+    padding: 0%;
+    border: 1px solid green;
+    border-radius: 10px;
+    max-width: 100%;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style-type: none;
+    padding: 1vw;
+    margin-left: 15%;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: green;
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+}
+

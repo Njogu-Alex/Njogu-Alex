@@ -1,6 +1,43 @@
-h2{
-    font-size: 100px;
-    color: transparent;
-    text-align: center;
-    -webkit-text-stroke: 1px red;
+.landing-page{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.home-intro{
+    max-width: 600px;
+}
+.home-intro h1{
+    font-size: 60px;
+    color: rgb(14, 14, 48);
+    font-weight: 700;
+}
+.home-intro h3{
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(20, 20, 189);
+}
+.home-intro p{
+    font-size: 16px;
+}
+.home-intro .btn-box{
+    width: 345px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-box a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: rgb(20, 20, 189);
+    border: 2px rgb(14, 14, 48);
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
 }

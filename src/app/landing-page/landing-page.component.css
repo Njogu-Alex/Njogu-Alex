@@ -40,4 +40,21 @@
     font-size: 20px;
     letter-spacing: 1px;
     font-weight: 600;
+    transition: 1s;
+}
+.btn-box a:hover{
+    background-color: white;
+    color:rgb(20, 20, 189) ;
+    border: 1px solid rgb(20, 20, 189);
+}
+img{
+    width: 55%;
+    height: 60%;
+    border-radius: 50%;
+    transition:2s ;
+}
+img:hover{
+    width: 50%;
+    height: 60%;
+    border-radius: 40%;
 }

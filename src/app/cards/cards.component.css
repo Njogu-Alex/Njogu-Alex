@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h2{
+    text-align: center;
+    -webkit-text-stroke: 1px rgb(20, 20, 189);
+    color: transparent;
+    width: 100%;
+}
+section{
+    margin-left: -9px;
+    margin-right: -10px;
+    height: 500px;
+}
+.card-holder{
+    left: 0%;
+    top: 0%;
+    background-color: rgb(14, 14, 48);
+    
+    border: 1px solid rgb(20, 20, 189);
+    display: flex;
+}
+.card-holder div{
+    margin-top: 10%;
+}
+div.card-one{
+    margin-left: 10px;
+}
+div.card-two{
+    
+    margin-left: 10px;
+}
+div.card-three{
+    
+    margin-left: 10px;
+}
+div p{
+    color: white;
+}

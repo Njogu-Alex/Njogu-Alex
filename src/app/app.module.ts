@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { CardsComponent } from './cards/cards.component';
+
 
 @NgModule({
   declarations: [
@@ -13,6 +15,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     FooterComponent,
     NavbarComponent,
     LandingPageComponent,
+    CardsComponent,
     
   ],
   imports: [

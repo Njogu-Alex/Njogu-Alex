@@ -7,36 +7,38 @@ h2{
     -webkit-text-stroke: 1px rgb(20, 20, 189);
     color: transparent;
     width: 100%;
+    font-weight: 700;
 }
 section{
     margin-left: -9px;
     margin-right: -10px;
-    height: 500px;
+    height: auto;
 }
 .card-holder{
     left: 0%;
     top: 0%;
-    background-color: rgb(14, 14, 48);
-    
-    border: 1px solid rgb(20, 20, 189);
     display: flex;
 }
 .card-holder div{
-    margin-top: 10%;
+    margin-top: 5%;
 }
 div.card-one{
     margin-left: 10px;
+    background-color: rgb(14, 14, 48);
+    border-radius: 10px;
 }
 .mybutton{
     text-align: center;
 }
 div.card-two{
-    
     margin-left: 10px;
+    background-color: rgb(20, 20, 189);
+    border-radius: 10px;
 }
 div.card-three{
-    
+    background-color: rgb(14, 14, 48);
     margin-left: 10px;
+    border-radius: 10px;
 }
 div p{
     color: white;

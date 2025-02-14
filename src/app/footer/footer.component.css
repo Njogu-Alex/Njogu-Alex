@@ -16,41 +16,59 @@
     justify-content: space-between;
     z-index: 00;
     box-shadow: 5px 0px 20px 0px;
+    background-color: rgb(14, 14, 48);
 }
 .name li{
     list-style-type: none;
-    -webkit-text-stroke: 1px rgb(20, 20, 189) ;
+    -webkit-text-stroke: 1px white ;
     color: transparent;
     font-size: larger;
     font-size: 50px;
 }
 .socials h3{
-    color: rgb(20, 20, 189);
+    color: white;
     font-size: 20px;
 }
 .socials li{
     list-style-type: none;
-    color: rgb(20, 20, 189);
+    color: white;
     font-family: 'Times New Roman', Times, serif;
+    width: 200px;
     transition: 1s;
 }
 .socials li:hover{
-    text-transform: uppercase;
-    color: white;
-    background-color: rgb(20, 20, 189);
-    height: 6vh;
-    position: centre;
+    color: rgb(20, 20, 189);
+    background-color: white;
+    height: 40px;
     text-align: center;
-    margin-top: 10%;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: large;
 }
 .stacks h3{
-    color: rgb(20, 20, 189);
+    color: white;
 }
 .stacks li{
-    color: rgb(20, 20, 189);
+    color: white;
     list-style-type: none;
     text-align: centre;
+    text-transform: uppercase;
 }
-button .btns{
-    background-color: red;
+.btns button{
+    background-color: white;
+    height: 50px;
+    color: rgb(20, 20, 189);
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    font-size: larger;
+    border: none;
+    text-transform: uppercase;
+    transition: 1s;
+    border-radius: 10px;
+}
+.btns button:hover{
+    background-color: rgb(20, 20, 189);
+    color: white;
+    border-radius: 10px 10px 5px 5px;
+    border: 1px solid white;
 }

@@ -1,45 +1,54 @@
-*{
-    margin: 0%;
-    padding: 0%;
-}
-h2{
-    text-align: center;
-    -webkit-text-stroke: 1px rgb(20, 20, 189);
-    color: transparent;
-    width: 100%;
-    font-weight: 700;
-}
 section{
-    margin-left: -9px;
-    margin-right: -10px;
-    height: auto;
-}
-.card-holder{
-    left: 0%;
-    top: 0%;
+    margin: 0;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: auto;
+    align-items: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem;
+    background: linear-gradient(0deg, #1973D1, #010280);
+    
 }
-.card-holder div{
-    margin-top: 5%;
+.card-one{
+    width:20em;
+    min-height: 18em;
+    
 }
-div.card-one{
-    margin-left: 10px;
-    background-color: rgb(14, 14, 48);
-    border-radius: 10px;
-}
-.mybutton{
-    text-align: center;
-}
-div.card-two{
-    margin-left: 10px;
-    background-color: rgb(20, 20, 189);
-    border-radius: 10px;
-}
-div.card-three{
-    background-color: rgb(14, 14, 48);
-    margin-left: 10px;
-    border-radius: 10px;
-}
-div p{
+.card-one p{
     color: white;
+    line-height: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-one h2{
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+.card-two{
+    width:20em;
+    min-height: 18em;
+    
+}
+.card-two p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-three{
+    width:20em;
+    min-height: 18em;
+    
+}
+.card-three p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mybutton .view{
+    justify-content: center;
+    align-items: centre;
+    margin-left: 5vw;
+    width:10vw;
+    height: 5vh;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
 }

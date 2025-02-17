@@ -1,11 +1,9 @@
-section{
-    display: grid;
-}
 .landing-page{
     height: 100vh;
     display: flex;
     align-items: center;
     padding: 0 10%;
+    
 }
 .home-intro{
     max-width: 600px;
@@ -55,6 +53,7 @@ img{
     height: 60%;
     border-radius: 50%;
     transition:2s ;
+    
 }
 img:hover{
     width: 50%;

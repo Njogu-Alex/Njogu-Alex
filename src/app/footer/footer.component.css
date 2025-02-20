@@ -1,72 +1,44 @@
-*{
-    box-sizing: border-box;
-    margin:0;
-}
-.footer{
-    margin-top: 5%;
-    display: flex;
-    left: 0%;
-    top: 10px;
-    left: 0%;
-    align-items: center;
-    padding: 20px 10%;
-    justify-content: space-between;
-    z-index: 00;
-    background-color: rgb(179, 176, 176);
-    padding-top: 20px;
-    border-radius: 8px;
-}
-.name li{
-    list-style-type: none;
-    -webkit-text-stroke: 1px rgb(14, 14, 48) ;
-    color: transparent;
-    font-size: larger;
-    font-size: 50px;
-}
-.socials h3{
-    color: rgb(14, 14, 48);
-    font-size: 20px;
-}
-.socials li{
-    list-style-type: none;
-    color:rgb(20, 20, 189) ;
-    font-family: 'Times New Roman', Times, serif;
-    width: 200px;
-    transition: 1s;
-}
-.socials li:hover{
-    color: white;
+.footer {
     background-color: rgb(14, 14, 48);
-    height: 40px;
+    color: #ffffff;
+    padding: 20px;
     text-align: center;
-    font-weight: 600;
-    border-radius: 5px;
-    font-size: large;
+    display: flex;
+    flex-wrap:wrap;
+    margin-left: -16px;
+    margin-right: -8px;
 }
-.stacks h3{
-    color: rgb(14, 14, 48);
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-.stacks li{
-    color: rgb(14, 14, 48);
-    list-style-type: none;
-    text-align: centre;
-    text-transform: capitalize;
+
+.footer-logo, .footer-nav, .footer-social, .footer-contact, .footer-newsletter {
+    flex: 1 1 200px;
+    margin: 10px;
 }
-.btns button{
-    background-color: white;
-    height: 50px;
-    color: rgb(20, 20, 189);
-    font-family: 'Times New Roman', Times, serif;
-    width: 200px;
-    font-size: larger;
-    border: none;
-    text-transform: uppercase;
-    transition: 1s;
-    border-radius: 10px;
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
 }
-.btns button:hover{
-    background-color: rgb(20, 20, 189);
-    color: white;
-    border-radius: 10px 10px 5px 5px;
-    border: 1px solid white;
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer-logo, .footer-nav, .footer-social, .footer-contact, .footer-newsletter {
+        margin: 10px 0;
+    }
+}
+ul li {
+    list-style: none;
 }

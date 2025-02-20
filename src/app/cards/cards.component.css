@@ -3,8 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+.projects{
+    text-align: center;
+    font-size: 50px;
+    -webkit-text-stroke: 1px rgb(20, 20, 189);
+    color: transparent;
+    letter-spacing: 4px;
+}
 section{
-    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -13,47 +19,90 @@ section{
     font-family: Arial, Helvetica, sans-serif;
     padding: 2rem;
     background: linear-gradient(0deg, #1973D1, #010280);
-    
+    margin-right: -8px;
+    margin-left: -16px;
 }
 .card-one{
     width:20em;
     min-height: 18em;
-    
+    text-align: center;
+    padding-top: 4px;
+    transition: 1s;
 }
 .card-one p{
     color: white;
-    line-height: 25px;
+    line-height: 20px;
     font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.5px;
 }
 .card-one h2{
-    color: transparent;
-    -webkit-text-stroke: 1px white;
+    color: white;
+    letter-spacing: 4px;
+}
+.card-one:hover{
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px ;
 }
 .card-two{
     width:20em;
     min-height: 18em;
-    
+    transition: 1s;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+.card-two h2{
+    color: white;
+    letter-spacing: 4px;
 }
 .card-two p{
     color: white;
     font-family: 'Times New Roman', Times, serif;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+}
+.card-two:hover{
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px ;
 }
 .card-three{
     width:20em;
     min-height: 18em;
-    
+    transition: 1s;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+.card-three h2{
+    color: white;
+    letter-spacing: 4px;
 }
 .card-three p{
     color: white;
     font-family: 'Times New Roman', Times, serif;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+.card-three:hover{
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px ;
 }
 .mybutton .view{
     justify-content: center;
     align-items: centre;
-    margin-left: 5vw;
+    margin-left: 2vw;
     width:10vw;
     height: 5vh;
     border: none;
     text-transform: uppercase;
     font-family: 'Times New Roman', Times, serif;
+    margin-top: 8vh;
+    transition: 2s;
+}
+.mybutton .view:hover{
+    background-color: white;
+    color:rgb(20, 20, 189) ;
+    border: 1px solid rgb(20, 20, 189);
+    border-radius: 8px;
 }

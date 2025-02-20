@@ -1,9 +1,12 @@
+section{
+    justify-content: space-between;
+}
 .landing-page{
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     padding: 0 10%;
-    
+    flex-wrap: wrap-reverse;
 }
 .home-intro{
     max-width: 600px;
@@ -49,14 +52,9 @@
     border: 1px solid rgb(20, 20, 189);
 }
 img{
-    width: 55%;
-    height: 60%;
+    width: 30%;
+    height: 50%;
     border-radius: 50%;
     transition:2s ;
     
-}
-img:hover{
-    width: 50%;
-    height: 60%;
-    border-radius: 40%;
 }

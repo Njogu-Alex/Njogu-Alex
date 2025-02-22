@@ -52,9 +52,9 @@ section{
     border: 1px solid rgb(20, 20, 189);
 }
 img{
-    width: 30%;
+    width: 20%;
     height: 50%;
     border-radius: 50%;
     transition:2s ;
-    
+    flex-grow: 1;
 }
